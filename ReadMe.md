@@ -1,4 +1,4 @@
-#EWS module for powershell
+# EWS module for powershell
 ## Usage
 ```powershell
 # Start with creating a ExchangeService session
@@ -27,3 +27,11 @@ $AppointmentSplat = @{
 
 Add-Appointment @AppointmentSplat
 ```
+
+# Available cmdlets (so far)
+Add-EWSAppointment
+Get-EWSAllRooms
+Get-EWSAppointment
+Invoke-EWSExchangeService
+Remove-EWSAppointment
+Set-EWSUserImpersonation
