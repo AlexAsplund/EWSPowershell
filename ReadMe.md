@@ -29,9 +29,9 @@ Add-Appointment @AppointmentSplat
 ```
 
 # Available cmdlets (so far)
-Add-EWSAppointment
-Get-EWSAllRooms
-Get-EWSAppointment
-Invoke-EWSExchangeService
-Remove-EWSAppointment
-Set-EWSUserImpersonation
+## Invoke-EWSExchangeService
+## Add-EWSAppointment
+## Get-EWSAllRooms
+## Get-EWSAppointment
+## Remove-EWSAppointment
+## Set-EWSUserImpersonation
